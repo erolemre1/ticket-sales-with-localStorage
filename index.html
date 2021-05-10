@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Ticket</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/lightbox.css" media="screen">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+
+<body>
+    <h1 class="app-title" id="header">Ticket Sales Application</h1>
+   
+ 
+    <div class="container">
+     
+      
+        <div class="screen"> <a href="./incc.jpg" rel="lightbox" > <img src="./incc.jpg" class="imgc"></a></div>
+      
+        <div class="row">
+            
+           1<div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat reserved"></div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            
+        </div>
+        <div class="row">
+            2<div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat "></div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat reserved"></div>
+
+        </div>
+        <div class="row">
+           3 <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+
+        </div>
+        <div class="row">
+           4 <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            
+
+        </div>
+        <div class="row">
+            5<div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            
+            
+
+        </div>
+     
+        <p class="Alphabet">AB CDEF GH</p>
+    
+    </div>
+
+    <div class="movie-list">
+        <select id="movief">
+            <option disabled class="movies">Film Seçiniz</option>
+            <option  class="movies">Movie 1</option>
+            <option  class="movies">Movie 2</option>
+            <option  class="movies">Movie 3</option>
+            <option  class="movies">Movie 4</option>
+            <option  class="movies">Movie 5</option>
+        </select>
+        <select id="moviesk" >
+            <option disabled class="movies">Kategori Seçiniz</option>
+            <option value="10" id="moviess">Öğrenci Bileti</option>
+            <option value="20" id="moviefa"> Tam Bilet</option>
+           
+            
+    
+        </select>
+    
+    </div>
+    <ul class="info">
+        <li>
+            <div class="seat selected scal"> </div>
+                <small>Selected</small>
+            
+        </li>
+        <li>
+            <div class="seat scal"></div>
+                <small>Empty</small>
+            
+        </li>
+        <li>
+            <div class="seat reserved"></div>
+                <Small>Full</Small>
+            
+        </li>
+    </ul>
+    <p class="text">
+ 
+     <span id="countf"> 3 </span> adet <span id="tickets"></span>  için hesaplanan fiyat:  <span id="amountf"> 60  </span> TL.</p>
+    
+     <div class="icons">
+ 
+        <ul class="icons">
+            <li>
+                <a href="https://www.instagram.com/emregulec._/?hl=tr" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+           
+            <li>
+                <a href="https://twitter.com/ErolEmreGle1 " target="_blank"> <i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/emre-g%C3%BCle%C3%A7-5429b8210/" target="_blank"><i class="fab fa-linkedin"></i> </a>
+            </li>
+            <li>
+                <a href="https://github.com/erolemre1" target="_blank"> <i class="fab fa-github"></i></a>
+            </li>
+        </ul>
+    </div>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/lightbox.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
